@@ -1,0 +1,161 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Introduction start */
+.introduction h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 40px;
+}
+/* Introduction end */
+
+/* Skill section start */
+
+.skills {
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+.skills h2 {
+  padding: 20px 0;
+  letter-spacing: 0.1em;
+}
+
+.table {
+  border-top: 1px solid #000;
+  display: flex;
+  width: 100;
+  flex-flow: wrap;
+}
+
+.skill {
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.cl3 {
+  width: 33.33%;
+}
+
+.skill img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.skill-heading {
+  padding-top: 20px;
+  letter-spacing: 0.1em;
+}
+
+.skill p {
+  letter-spacing: 0.05em;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.hz-line {
+  margin: 20px auto;
+  display: block;
+  width: 50px;
+  height: 1px;
+  opacity: 0.3;
+  background: #000;
+}
+
+/* Skill section end */
+
+/* Project section start */
+
+.projects {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.projects h2 {
+  padding: 20px 0;
+  letter-spacing: 0.1em;
+}
+
+.projects h3 {
+  padding-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.project img {
+  border: 2.5px solid #000;
+  margin-bottom: 20px;
+}
+
+.project p {
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.project ul {
+  list-style: none;
+}
+
+.project ul li {
+  padding: 10px 0;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+
+/* Project section end */
+
+/* Contact section start */
+
+.contact {
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact h1 {
+  padding: 20px 0;
+  letter-spacing: 0.1em;
+}
+
+.contact h2 {
+  padding: 20px 0;
+  letter-spacing: 0.1em;
+}
+
+.contact h3 {
+  padding: 20px 0;
+  letter-spacing: 0.1em;
+}
+
+.contact p {
+  letter-spacing: 0.05em;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact ul li {
+  padding: 10px 0;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+
+/* Contact section end */
