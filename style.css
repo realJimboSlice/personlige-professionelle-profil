@@ -19,6 +19,19 @@ body {
   line-height: 1.5;
   font-size: 40px;
 }
+
+.introduction .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 100px;
+  align-items: center;
+  justify-items: center;
+}
+
+.introduction .container img {
+  width: 100%;
+  max-width: 500px;
+}
 /* Introduction end */
 
 /* Skill section start */
@@ -156,6 +169,11 @@ body {
   padding: 10px 0;
   letter-spacing: 0.05em;
   font-size: 20px;
+}
+
+.contact li img {
+  width: 100%;
+  max-width: 100px;
 }
 
 /* Contact section end */
